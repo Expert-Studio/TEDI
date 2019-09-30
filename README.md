@@ -1,0 +1,2 @@
+# TEDI
+Terézvárosi Díjbeszedő alkalmazás
