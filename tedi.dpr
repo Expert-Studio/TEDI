@@ -42,7 +42,6 @@ uses
   f_CimSzerkeszto_Unit in 'f_CimSzerkeszto_Unit.pas' {f_CimSzerkeszto},
   f_BerloKivalasztas_Unit in 'f_BerloKivalasztas_Unit.pas' {f_BerloKivalasztas},
   f_SzervezetAdat_Unit in 'f_SzervezetAdat_Unit.pas' {f_SzervezetAdat},
-  f_AdatMigracio_Unit in 'f_AdatMigracio_Unit.pas' {f_AdatMigracio},
   f_LakasAdat_Unit in 'f_LakasAdat_Unit.pas' {f_LakasAdat},
   f_HelyisegKeres_Unit in 'f_HelyisegKeres_Unit.pas' {f_HelyisegKeres},
   f_EgyebKeres_Unit in 'f_EgyebKeres_Unit.pas' {f_EgyebKeres};

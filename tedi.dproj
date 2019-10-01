@@ -274,10 +274,6 @@
             <Form>f_SzervezetAdat</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="f_AdatMigracio_Unit.pas">
-            <Form>f_AdatMigracio</Form>
-            <FormType>dfm</FormType>
-        </DCCReference>
         <DCCReference Include="f_LakasAdat_Unit.pas">
             <Form>f_LakasAdat</Form>
             <FormType>dfm</FormType>
@@ -316,6 +312,12 @@
                 </Excluded_Packages>
             </Delphi.Personality>
             <Deployment Version="3">
+                <DeployFile LocalName="Win32\Release\tedi.exe" Configuration="Release" Class="ProjectOutput">
+                    <Platform Name="Win32">
+                        <RemoteName>tedi.exe</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployClass Name="AdditionalDebugSymbols">
                     <Platform Name="iOSSimulator">
                         <Operation>1</Operation>

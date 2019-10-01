@@ -1791,13 +1791,6 @@ object f_Foablak: Tf_Foablak
         Caption = 'Alaphelyzet'
         OnClick = Alaphelyzet1Click
       end
-      object N3: TMenuItem
-        Caption = '-'
-      end
-      object Adatmigrci1: TMenuItem
-        Caption = 'Adatmigr'#225'ci'#243
-        OnClick = Adatmigrci1Click
-      end
     end
   end
   object fd_betu: TFontDialog

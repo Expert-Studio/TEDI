@@ -62,8 +62,6 @@ type
     sb_betutipus: TSpeedButton;
     ColorDialog1: TColorDialog;
     l_szin: TLabel;
-    N3: TMenuItem;
-    Adatmigrci1: TMenuItem;
     procedure ActiveControlChanged(Sender: TObject);
     procedure cb_latvanyChange(Sender: TObject);
     procedure sb_adminClick(Sender: TObject);
@@ -86,7 +84,6 @@ type
     procedure l_szinClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure FormShow(Sender: TObject);
-    procedure Adatmigrci1Click(Sender: TObject);
     procedure Helyisgek1Click(Sender: TObject);
     procedure Csarnok1Click(Sender: TObject);
   private
@@ -108,7 +105,7 @@ implementation
 uses f_Admin_Unit, f_BerloKeres_Unit, f_BerlemenyKereses_Unit,
   f_SzerzodesKeres_Unit, f_SzamlaKeres_Unit, f_TamogatasSzures_Unit,
   f_ReszletfizetesSzures_Unit, f_BefizetesSzures_Unit,
-  f_LakasKeres_unit, f_PenztarKeres_Unit, f_AdatMigracio_Unit,
+  f_LakasKeres_unit, f_PenztarKeres_Unit,
   f_EgyebKeres_Unit, f_HelyisegKeres_Unit;
 
 procedure Tf_Foablak.ActiveControlChanged(Sender: TObject);
@@ -148,11 +145,6 @@ begin
   End;
 End;
 
-
-procedure Tf_Foablak.Adatmigrci1Click(Sender: TObject);
-begin
-  AblakNyit(Tf_AdatMigracio, TForm(f_AdatMigracio));
-end;
 
 procedure Tf_Foablak.Alaphelyzet1Click(Sender: TObject);
 Var R: TRegistry;
